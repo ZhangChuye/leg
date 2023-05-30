@@ -71,7 +71,7 @@
       <material
         name="">
         <color
-          rgba="0.25403226 0.31451613 0.43145161 0.8" />
+          rgba="0.25403226 0.31451613 0.43145161 1" />
       </material>
     </visual>
     <collision>
@@ -101,10 +101,7 @@
       upper="3.14"
       effort="100"
       velocity="1" />
-    <safety_controller
-      soft_upper="3.14"
-      soft_lower="-3.14"
-      k_velocity="0" />
+    
   </joint>
   <link
     name="link2">
@@ -133,7 +130,7 @@
       <material
         name="">
         <color
-          rgba="1 1 1 0.8" />
+          rgba="1 1 1 1" />
       </material>
     </visual>
     <collision>
@@ -163,10 +160,7 @@
       upper="3.14"
       effort="100"
       velocity="1" />
-    <safety_controller
-      soft_upper="3.14"
-      soft_lower="-3.14"
-      k_velocity="0" />
+    
   </joint>
   <link
     name="link3">
@@ -195,7 +189,7 @@
       <material
         name="">
         <color
-          rgba="0.9 0.0 0.1 0.8" />
+          rgba="0.9 0.0 0.1 1" />
       </material>
     </visual>
     <collision>
@@ -225,9 +219,6 @@
       upper="3.14"
       effort="100"
       velocity="1" />
-    <safety_controller
-      soft_upper="3.14"
-      soft_lower="-3.14"
-      k_velocity="0" />
+    
   </joint>
 </robot>
